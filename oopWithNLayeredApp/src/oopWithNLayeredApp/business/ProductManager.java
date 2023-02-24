@@ -21,7 +21,7 @@ public class ProductManager {
         //
         //Bir katman başka bir katmanın classını kullanıyorken sadece
         //interface'inden erişim kurmalıdır.
-        // Entity'ler dışında.. O yüzden 13. satırı kaldırmam gerekiyor.
+        // Entity'ler dışında. O yüzden 20. satırı kaldırmam gerekiyor.
         //Bunun yerine interface injection yapıyorum.
         //9-12 satırlar bağımlılık yönetimi ve son satırda bunu kullandık.
 
