@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4081efc3-fe26-47d1-a06f-c3bd69aa7d29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oop1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop1/oop1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +11,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Test" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2MA5DwpLvGSYZqq4vpyODx597PN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,7 +24,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HP/IdeaProjects",
+    "last_opened_file_path": "C:/Users/HP/JavaTrainings",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -42,6 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677197433762</updated>
       <workItem from="1677197434269" duration="69000" />
+      <workItem from="1677247619462" duration="97000" />
     </task>
     <servers />
   </component>
