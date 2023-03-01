@@ -10,7 +10,6 @@ import java.util.List;
 @Service // Bu sınıf bir Business nesnesidir.
 public class BrandManager implements BrandService {
     private BrandRepository brandRepository;
-
     @Autowired
     public BrandManager(BrandRepository brandRepository) {
         this.brandRepository = brandRepository;
@@ -19,6 +18,6 @@ public class BrandManager implements BrandService {
     @Override
     public List<Brand> getAll() {
         //iş kuralları
-        return brandRepository.getAll();
+        return brandRepository.findAll();
     }
 }
