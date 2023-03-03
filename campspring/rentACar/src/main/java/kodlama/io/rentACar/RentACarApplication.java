@@ -1,15 +1,11 @@
 package kodlama.io.rentACar;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.SpringBootConfiguration;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Bean;
+
 
 
 @SpringBootApplication(scanBasePackageClasses = RentACarApplication.class)
@@ -18,7 +14,11 @@ public class RentACarApplication {
 
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(RentACarApplication.class, args);
 	}
-
+	@Bean
+	public ModelMapper getModelMapper(){
+		return new ModelMapper();
+	}
 }
