@@ -3,16 +3,14 @@ package kodlama.io.rentACar.entities.concretes;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.List;
 
-
-@Table(name="brands")
+@Table(name="models")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Brand {
+public class Model {
 
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -21,7 +19,8 @@ public class Brand {
     @Column(name="name")
     private String name;
 
-    @OneToMany(mappedBy="brand")
-    List<Model> models;
+    @ManyToOne
+    @JoinColumn(name="brand_id")
+    private Brand brand;
 
 }
