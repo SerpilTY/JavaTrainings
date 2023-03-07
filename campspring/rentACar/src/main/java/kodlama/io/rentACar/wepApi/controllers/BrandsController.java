@@ -1,12 +1,12 @@
 package kodlama.io.rentACar.wepApi.controllers;
 
+import jakarta.validation.Valid;
 import kodlama.io.rentACar.business.abstracts.BrandService;
 import kodlama.io.rentACar.business.requests.CreateBrandRequest;
 import kodlama.io.rentACar.business.requests.UpdateBrandRequest;
 import kodlama.io.rentACar.business.responses.GetAllBrandsResponse;
 import kodlama.io.rentACar.business.responses.GetByIdResponse;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -31,7 +31,7 @@ public class BrandsController {
 
     @PostMapping()
     @ResponseStatus(code= HttpStatus.CREATED)
-    public void Add(CreateBrandRequest createBrandRequest){  this.brandService.Add(createBrandRequest);}
+    public void Add(@RequestBody() @Valid CreateBrandRequest createBrandRequest){  this.brandService.Add(createBrandRequest);}
 
     @PutMapping
     public void Update(@RequestBody UpdateBrandRequest updateBrandRequest){
