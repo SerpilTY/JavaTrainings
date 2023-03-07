@@ -3,6 +3,8 @@ package kodlama.io.rentACar.entities.concretes;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
+
 
 @Table(name="models")
 @Getter
@@ -22,5 +24,8 @@ public class Model {
     @ManyToOne
     @JoinColumn(name="brand_id")
     private Brand brand;
+
+    @OneToMany(mappedBy="model")
+    private List<Car> cars;
 
 }
